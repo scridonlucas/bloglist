@@ -35,3 +35,16 @@ content-type: application/json
 DELETE http://localhost:3001/api/blogs/6462c1ba19b13708ceb2c4a6
 content-type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imdlb3JnZSIsImlkIjoiNjQ2MmJlNTI5ODAxMGI2NzYwMWY0NGRiIiwiaWF0IjoxNjg0MjY4NzAwLCJleHAiOjE2ODQyNzIzMDB9.0_uUAz9S5PZoADW8f9BNDMx-B1dXZh3HuFJzMgi6XQs
+
+###
+
+PUT http://localhost:3001/api/blogs/6463bd499cfccd04f5319b18
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imdlb3JnZSIsImlkIjoiNjQ2MmJlNTI5ODAxMGI2NzYwMWY0NGRiIiwiaWF0IjoxNjg0NTk3MTg5LCJleHAiOjE2ODQ2MDA3ODl9.dWe5Y1WrZwpDtjRzVrifJnDXQ-AjpYbzWzueWJYFyOI
+
+{
+    "title": "xxx",
+    "author": "vsss",
+    "url": "wwwioncreanga",
+    "likes": "22"
+}
